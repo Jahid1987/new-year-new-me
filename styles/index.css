@@ -18,7 +18,101 @@ body{
     font-size: 20px;
     font-weight: 600px;
 }
+.container{
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+}
+p{
+    color: #FFF;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
 .section-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    line-height: normal;
+}
+.section-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+/* header section  */
+header{
+    background-image: url("../images/banner/banner3.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+}
+header > section{
+    position: relative;
+}
+.header-content{
+    color: white;
+    text-align: right;
+    padding-top: 220px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    max-width: 525px;
+}
+.header-content *{
+    margin-bottom: 24px;
+}
+.header-title{
+    font-size: 46px;
+    font-weight: 700;
+}
+
+/* failure section  */
+.failure-section{
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;
+    align-items: center;
+    align-content: center;
+}
+.failure-section .failure-text > *{
+    margin-top: 24px;
+}
+.failure-section .failure-img{
+    width: 527.929px;
+    height: 527.929px;
+}
+.failure-section .failure-img img{
+    width: 100%;
+}
+.failure-section .failure-text{
+    max-width: 416px;
+    margin-top: 300px;
+}
+.failure-section .failure-text ul{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    list-style: none;
+}
+
+.failure-section .failure-text ul li::before{
+    content: "\2713\0020";
+    color: green;
+    font-size: 1.2em;
+    margin-right: 0.5em;
+}
+
+/* my plan section  */
+
+
+/* .section-title{
     color: #151414;
     font-size: 40px;
     font-weight: 700;
@@ -33,7 +127,7 @@ body{
 }
 
 /* header section styles */
-.banner{
+/* .banner{
     background: url("../images/banner/banner3.png"), lightgray 50% / cover no-repeat;
     background-repeat: no-repeat;
     background-size:cover;
@@ -44,7 +138,7 @@ body{
 }
 .banner-content{
     position: absolute;
-    right: 320px;
+    right: 230px;
     top:220px;
     text-align: right;
     max-width: 550px;
@@ -60,19 +154,21 @@ body{
     font-weight: 400;
     line-height: 26px;
     margin: 30px 0;
-}
+} */
 
 /* failure section styles */
-main{
+/* main{
     margin: 0 auto;
+    padding: 0px 230px;
 }
 .failure-section{
     display: flex;
     justify-content: space-between;
     align-items: center;
     align-content: center;
-    padding: 200px;
     gap: 80px;
+    padding: 0 90px;
+    margin-top: 130px;
 }
 .failure-section img{
     width: 560px;
@@ -85,5 +181,5 @@ main{
     font-size: 16px;
     font-weight: 400;
     line-height: 26px;
-}
+} */ 
 
