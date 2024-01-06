@@ -1,0 +1,89 @@
+/* reset  */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Shared common styles  */
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+.btn-primary{
+    width: 160px;
+    height: 64px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    background: #FFF;   
+    color: #005FAC;
+    font-size: 20px;
+    font-weight: 600px;
+}
+.section-title{
+    color: #151414;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 24px 0;
+}
+.section-description{
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 16px 0;
+}
+
+/* header section styles */
+.banner{
+    background: url("../images/banner/banner3.png"), lightgray 50% / cover no-repeat;
+    background-repeat: no-repeat;
+    background-size:cover;
+    width: 1600px;
+    height: 800px;
+    margin: 0 auto;
+    position: relative;
+}
+.banner-content{
+    position: absolute;
+    right: 320px;
+    top:220px;
+    text-align: right;
+    max-width: 550px;
+}
+.banner-title{
+    color: #FFF;
+    font-size: 65px;
+    font-weight: 700;
+}
+.banner-msg{
+    color: #FFF;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    margin: 30px 0;
+}
+
+/* failure section styles */
+main{
+    margin: 0 auto;
+}
+.failure-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    align-content: center;
+    padding: 200px;
+    gap: 80px;
+}
+.failure-section img{
+    width: 560px;
+}
+.failure-text{
+    max-width: 420px;
+}
+.failure-msg {
+    color:#444343;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+}
+
